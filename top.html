@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Управление салоном</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	</head>
+
+	<body>
+		<div class="work_area">
+		<h1>Управление салоном</h1>
+		<form action="/workers_edit.php" method="post">
+			<ul id="head_menu" class="hr">
+				<!-- <li><select name="table_name" class="select-class">
+						<option hidden="">Редактирование справочников</option>
+						<option value="/workers_edit.php">Сотрудники</option>
+						<option>Услуги</option>
+						<option>Навыки</option>
+					</select></li> -->
+				<li><a href="/select_table.php" target="BOTTOM">Редактирование справочников</a></li>
+				<li><a href="/schedule.php" target="BOTTOM">Расписание</a></li>
+				<li><a href="/report.php" target="BOTTOM">Отчет</a></li>
+				<li><a href="/clients_edit.php" target="BOTTOM">Запись клиентов</a></li>
+				<li><a href="/website_appointment.php" target="BOTTOM">Запись на сайте</a></li>
+			</ul>
+		</form>
+		</div>
+	</body>
+
+</html>

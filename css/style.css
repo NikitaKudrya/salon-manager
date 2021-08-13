@@ -1,0 +1,139 @@
+body {background-color: #EFF0F3!important}
+
+.container {
+  margin-top: 10px;
+  width: 100%!important;
+}
+
+.work_area {
+  margin-top: 10px;
+  width: 90%!important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.shadowbox {
+  width: 100%;
+  height: 90%;
+  border: 1px solid #333;
+  border-radius: 10px;
+  /* box-shadow: 8px 8px 5px #444; */
+  padding: 8px 12px;
+  /* background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc); */
+}
+
+.scroll {
+  width: 100%;
+  height: 10%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+form {
+  background: #2FAC9A;
+  border: 2px solid #228e6c;
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+/* #worker_name {
+  width: 60%;
+  float: left;
+  margin-right: 5%;
+}
+
+#phone_number {
+  width: 60%;
+  float: left;
+  margin-right: 5%;
+}*/
+
+select {
+
+}
+
+ul.hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul.hr li {
+  display: inline; /* Отображать как строчный элемент */
+  margin: 0; /* убрать внутренние отступы */
+  padding: 0; /* убрать внешние отступы */
+}
+
+ul {
+  padding: 0 10px!important;
+}
+
+ul li {
+  list-style: none;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #fcfcfc;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+ul li:hover {
+  background: #e5e5e5;
+}
+
+ul li button {
+  border: 0;
+  padding: 5px 15px;
+  color: white;
+  font-size: 13px;
+  background: #db5757;
+  position: relative;
+  left: 250px;
+  border-radius: 5px;
+}
+
+ul li button:hover {
+  background: #a04141;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  background: white;
+  max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  font-weight: normal;
+  color: #039;
+  border-bottom: 2px solid #6678b1;
+  padding: 10px 8px;
+}
+td {
+  border-bottom: 1px solid #ccc;
+  color: #669;
+  padding: 9px 8px;
+  transition: .3s linear;
+}
+tr:hover td {
+  color: #6699ff;
+}
+
+#tables a {
+    padding: 25px 15px; /* задаем внутренние отступы */
+    color: #000; /* цвет текста */
+    text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+}
+
+#tables a:hover {
+     /* фон пунктов при наведении */
+}
